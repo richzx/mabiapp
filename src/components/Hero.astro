@@ -1,0 +1,23 @@
+---
+import HeroBg from '../assets/img-hero.svg';
+import ShapeBg from '../assets/shape-bg.svg';
+---
+
+<main>
+  <img class="absolute top-0 -z-10 h-[700px] lg:w-full object-cover" src={ShapeBg.src} alt="imagen de fondo">
+
+  <section class="w-full flex flex-col items-center gap-8 lg:flex-row lg:justify-center lg:gap-4">
+    <div class="w-full max-w-[634px] pt-[29px] md:pt-[59px] px-4 flex flex-col gap-8 items-center lg:items-start">
+      <div class="flex flex-col">
+        <h1 class="leading-tight text-[40px] sm:text-7xl font-bold text-white">Launch Your App</h1>
+        <h2 class="text-[32px] sm:text-[56px] leading-tight font-semibold text-gray-300">Grow Your Business</h2>
+      </div>
+      <p class="text-lg text-white">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar.</p>
+      <button class="px-12 py-5 text-2xl md:text-base text-white font-medium border-2 border-white rounded-full active:ring-4 active:ring-slate-500">
+        Free Launch
+      </button>
+    </div>
+  
+    <img class="drop-shadow-2xl" src={HeroBg.src} alt="prototipo de la app - imagen">
+  </section>
+</main>
